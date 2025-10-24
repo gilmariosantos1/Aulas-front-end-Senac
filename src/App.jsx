@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import FirstComponent from './Components/FirstComponent'
 
 function App() {
   return (
@@ -11,12 +9,8 @@ function App() {
       <p className="text-3xl font-bold underline">
         Bem Vindos, Senac Agradeçe sua presença!
       </p>
-
-      <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-    <legend>Katherine Johnson</legend>
+      <FirstComponent />
+     
     </div>
   )
 
