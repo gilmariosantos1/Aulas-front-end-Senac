@@ -1,5 +1,7 @@
 import './App.css'
+import Events from './Components/Events'
 import FirstComponent from './Components/FirstComponent'
+import TemplateExpression from './Components/TemplateExpression'
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
         Bem Vindos, Senac Agradeçe sua presença!
       </p>
       <FirstComponent />
-     
+      <TemplateExpression />
+      <Events />
     </div>
   )
 
